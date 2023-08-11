@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #28282B;
+}
+
+.wrapper{
+    width: 605px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 15px;
+}
+
+.wrapper header{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+
+}
+
+.content .task-area{
+    display: flex;
+    justify-content: center;
+
+}
+
+.task-area .task{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.wrapper .button{
+    border-top: 1px solid #ccc;
+}
+
+input:hover{
+    border: 1px solid #28282B;
+    background-color: #fff;
+    color: #28282B;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 13px 22px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    background: #28282B;
+    transition: all 0.2s ease;
+}
+
+/*----------------------------------------------------------------
+/* Style the input */
+/*
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  /*
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  */
